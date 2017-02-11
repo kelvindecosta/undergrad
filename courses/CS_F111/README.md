@@ -4,6 +4,7 @@
 >
 > ~ Wikipedia
 
-| Component   | Description                                                                                                           |
-| :---------- | :-------------------------------------------------------------------------------------------------------------------- |
-| [Lab](lab/) | Computer programs, written in the [C Programming Language](<https://en.wikipedia.org/wiki/C_(programming_language)>). |
+| Component           | Description                                                                                                           |
+| :------------------ | :-------------------------------------------------------------------------------------------------------------------- |
+| [Lab](lab/)         | Computer programs, written in the [C Programming Language](<https://en.wikipedia.org/wiki/C_(programming_language)>). |
+| [Assignments](ass/) | Simple assignments.                                                                                                   |
