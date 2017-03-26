@@ -7,3 +7,4 @@
 | [03](03/) | Loops                     |
 | [04](04/) | Functions                 |
 | [05](05/) | Strings                   |
+| [06](06/) | Structs                   |
