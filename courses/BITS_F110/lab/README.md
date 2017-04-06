@@ -8,3 +8,4 @@
 | [04](04/) | Isometric Projections - Part 2    |
 | [05](05/) | Projection of Lines - Part 1      |
 | [06](06/) | Projection of Lines - Part 2      |
+| [07](07/) | Projection of Planes              |
