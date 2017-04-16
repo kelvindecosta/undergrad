@@ -8,3 +8,4 @@
 | [04](04/) | Functions                 |
 | [05](05/) | Strings                   |
 | [06](06/) | Structs                   |
+| [07](07/) | Data and File Handling    |
