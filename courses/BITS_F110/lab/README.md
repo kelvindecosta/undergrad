@@ -9,3 +9,4 @@
 | [05](05/) | Projection of Lines - Part 1      |
 | [06](06/) | Projection of Lines - Part 2      |
 | [07](07/) | Projection of Planes              |
+| [08](08/) | Projection of Solids              |
