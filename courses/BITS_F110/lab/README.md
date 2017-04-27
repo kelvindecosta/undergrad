@@ -10,3 +10,4 @@
 | [06](06/) | Projection of Lines - Part 2      |
 | [07](07/) | Projection of Planes              |
 | [08](08/) | Projection of Solids              |
+| [09](09/) | Sections of Solids                |
