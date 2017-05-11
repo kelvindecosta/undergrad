@@ -12,3 +12,4 @@
 | [08](08/) | Projection of Solids              |
 | [09](09/) | Sections of Solids                |
 | [10](10/) | Development of Solids             |
+| [11](11/) | Intersection of Solids            |
