@@ -6,3 +6,4 @@
 | [02](02/) | Control Flow and Loops |
 | [03](03/) | Array List             |
 | [04](04/) | Aggregation            |
+| [05](05/) | Methods                |
