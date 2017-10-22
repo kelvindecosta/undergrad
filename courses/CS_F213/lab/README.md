@@ -8,3 +8,4 @@
 | [04](04/) | Aggregation            |
 | [05](05/) | Methods                |
 | [06](06/) | Inheritance - Part 1   |
+| [07](07/) | Inheritance - Part 2   |
