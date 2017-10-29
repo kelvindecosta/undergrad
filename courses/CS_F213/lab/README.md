@@ -9,3 +9,4 @@
 | [05](05/) | Methods                |
 | [06](06/) | Inheritance - Part 1   |
 | [07](07/) | Inheritance - Part 2   |
+| [08](08/) | Interfaces             |
