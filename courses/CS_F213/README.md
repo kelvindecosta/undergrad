@@ -4,6 +4,7 @@
 >
 > ~ Wikipedia
 
-| Type        | Description                                                                                                        |
-| :---------- | :----------------------------------------------------------------------------------------------------------------- |
-| [Lab](lab/) | Programs, written in the [Java Programming Language](<https://en.wikipedia.org/wiki/Java_(programming_language)>). |
+| Component           | Description                                                                                                        |
+| :------------------ | :----------------------------------------------------------------------------------------------------------------- |
+| [Lab](lab/)         | Programs, written in the [Java Programming Language](<https://en.wikipedia.org/wiki/Java_(programming_language)>). |
+| [Assignments](ass/) | Programming assignments, based on the OOP paradigm.                                                                |
