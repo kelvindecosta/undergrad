@@ -19,9 +19,13 @@ An archive of some of the academic work done during my undergraduate studies.
             <td><a href="courses/CS_F111/">Computer Programming</a></td>
         </tr>
         <tr>
-            <td align="center">2</td>
+            <td rowspan=2 align="center">2</td>
             <td align="center">1</td>
             <td><a href="courses/CS_F213/">Object Oriented Programming</a></td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td><a href="courses/CS_F211/">Data Structures and Algorithms</a></td>
         </tr>
     </tbody>
 </table>
