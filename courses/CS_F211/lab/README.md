@@ -6,3 +6,4 @@
 | [02](02/) | Stack                |
 | [03](03/) | Queue                |
 | [04](04/) | Advanced Linked List |
+| [05](05/) | Sorting              |
