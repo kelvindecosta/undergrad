@@ -6,6 +6,7 @@
 >
 > ~ Wikipedia
 
-| Component   | Description                                                            |
-| :---------- | :--------------------------------------------------------------------- |
-| [Lab](lab/) | Database queries, written in [SQL](https://en.wikipedia.org/wiki/SQL). |
+| Component           | Description                                                            |
+| :------------------ | :--------------------------------------------------------------------- |
+| [Lab](lab/)         | Database queries, written in [SQL](https://en.wikipedia.org/wiki/SQL). |
+| [Assignments](ass/) | Programming assignments.                                               |
