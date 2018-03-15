@@ -7,3 +7,4 @@
 | [03](03/) | Ordering - Part 1 |
 | [04](04/) | Ordering - Part 2 |
 | [05](05/) | Nested Queries    |
+| [06](06/) | Grouping          |
