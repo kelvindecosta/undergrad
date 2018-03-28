@@ -9,3 +9,4 @@
 | [05](05/) | Sorting              |
 | [06](06/) | Hash Map - Part 1    |
 | [07](07/) | Hash Map - Part 2    |
+| [08](08/) | Search Tree          |
