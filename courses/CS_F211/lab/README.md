@@ -11,3 +11,4 @@
 | [07](07/) | Hash Map - Part 2    |
 | [08](08/) | Search Tree          |
 | [09](09/) | Heap                 |
+| [10](10/) | AVL Tree             |
