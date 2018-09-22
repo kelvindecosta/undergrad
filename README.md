@@ -31,9 +31,12 @@ An archive of some of the academic work done during my undergraduate studies.
             <td><a href="courses/CS_F212/">Database Systems</a></td>
         </tr>
         <tr>
-            <td align="center">3</td>
-            <td align="center">1</td>
+            <td rowspan=2 align="center">3</td>
+            <td rowspan=2 align="center">1</td>
             <td><a href="courses/CS_F342/">Computer Architecture</a></td>
+        </tr>
+        <tr>
+            <td><a href="courses/CS_F351/">Theory of Computation</a></td>
         </tr>
     </tbody>
 </table>
