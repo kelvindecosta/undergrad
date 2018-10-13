@@ -1,0 +1,78 @@
+-------------------22:35:48 13-10-2018-------------------
+           EMPLOYEE LIST           
+ID    NAME                SALARY    
+E001  ANGEL               20000     
+E002  SANTHOSH            18000     
+E003  SUJALA              21000     
+S001  AMRUTHA             1000      
+S002  SUDARSHAN           1500      
+S003  VIJAYA              2000      
+S004  SADIA               2500      
+
+
+      STUDENTS (NOT INSTRUCTORS)           
+ID    NAME                FEES      COURSES                                                     
+S005  HARDY               16000     POPL, CA, OS
+S006  HARSHITH            18000     POPL, CA, OS
+S007  VINAYAK             16000     POPL, CA, OS
+
+
+             TEACHING ASSISTANTS           
+ID    NAME                FEES      COURSES                                                     
+S001  AMRUTHA             Computer Programming Lab., DD LAB
+S002  SUDARSHAN           DSA Lab., PHYSICS LAB
+S003  VIJAYA              Compiler Lab., CHEMISTRY LAB
+S004  SADIA               DBS Lab., BIOLOGY LAB
+
+
+            STUDENT LIST           
+ID    NAME                FEES      COURSES                                                     
+S001  AMRUTHA             18000     POM, IR, ML
+S002  SUDARSHAN           14500     POM, IR, HCI
+S003  VIJAYA              12000     POM, IR, NNFL
+S004  SADIA               12500     POPL, IR, OS
+S005  HARDY               16000     POPL, CA, OS
+S006  HARSHITH            18000     POPL, CA, OS
+S007  VINAYAK             16000     POPL, CA, OS
+
+
+---------------------------------------------------------
+-------------------23:09:27 13-10-2018-------------------
+           EMPLOYEE LIST           
+ID    NAME                SALARY    
+E001  ANGEL               20000     
+E002  SANTHOSH            18000     
+E003  SUJALA              21000     
+S001  AMRUTHA             1000      
+S002  SUDARSHAN           1500      
+S003  VIJAYA              2000      
+S004  SADIA               2500      
+
+
+      STUDENTS (NOT INSTRUCTORS)           
+ID    NAME                FEES      COURSES                                                     
+S005  HARDY               16000     POPL, CA, OS
+S006  HARSHITH            18000     POPL, CA, OS
+S007  VINAYAK             16000     POPL, CA, OS
+
+
+             TEACHING ASSISTANTS           
+ID    NAME                FEES      COURSES                                                     
+S001  AMRUTHA             Computer Programming Lab., DD LAB
+S002  SUDARSHAN           DSA Lab., PHYSICS LAB
+S003  VIJAYA              Compiler Lab., CHEMISTRY LAB
+S004  SADIA               DBS Lab., BIOLOGY LAB
+
+
+            STUDENT LIST           
+ID    NAME                FEES      COURSES                                                     
+S001  AMRUTHA             18000     POM, IR, ML
+S002  SUDARSHAN           14500     POM, IR, HCI
+S003  VIJAYA              12000     POM, IR, NNFL
+S004  SADIA               12500     POPL, IR, OS
+S005  HARDY               16000     POPL, CA, OS
+S006  HARSHITH            18000     POPL, CA, OS
+S007  VINAYAK             16000     POPL, CA, OS
+
+
+---------------------------------------------------------
