@@ -8,3 +8,4 @@
 | [04](04/) | Linear Search     |
 | [05](05/) | Binary Search     |
 | [06](06/) | Non-recursive GCD |
+| [07](07/) | Recursive GCD     |
