@@ -31,7 +31,7 @@ An archive of some of the academic work done during my undergraduate studies.
             <td><a href="courses/CS_F212/">Database Systems</a></td>
         </tr>
         <tr>
-            <td rowspan=3 align="center">3</td>
+            <td rowspan=4 align="center">3</td>
             <td rowspan=3 align="center">1</td>
             <td><a href="courses/CS_F301/">Principles of Programming Languages</a></td>
         </tr>
@@ -40,6 +40,10 @@ An archive of some of the academic work done during my undergraduate studies.
         </tr>
         <tr>
             <td><a href="courses/CS_F351/">Theory of Computation</a></td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td><a href="courses/CS_F363/">Compiler Construction</a></td>
         </tr>
     </tbody>
 </table>
