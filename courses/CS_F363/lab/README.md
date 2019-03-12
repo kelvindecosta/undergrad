@@ -7,3 +7,4 @@
 | [03](03/) | Lex - Part 2            |
 | [04](04/) | Lex - Part 3            |
 | [05](05/) | Yacc                    |
+| [06](06/) | Symbol Table            |
