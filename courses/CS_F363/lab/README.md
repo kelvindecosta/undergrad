@@ -10,3 +10,4 @@
 | [06](06/) | Symbol Table             |
 | [07](07/) | Code Generation - Part 1 |
 | [08](08/) | Code Generation - Part 2 |
+| [09](09/) | Optimization             |

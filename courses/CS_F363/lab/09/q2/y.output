@@ -1,0 +1,230 @@
+Grammar
+
+    0 $accept: lines $end
+
+    1 lines: lines expr SEMICOLON
+    2      | lines SEMICOLON
+    3      | %empty
+
+    4 expr: PLUS expr expr
+    5     | MINUS expr expr
+    6     | MUL expr expr
+    7     | DIV expr expr
+    8     | NUMBER
+
+
+Terminals, with rules where they appear
+
+    $end (0) 0
+    error (256)
+    NUMBER (258) 8
+    PLUS (259) 4
+    MINUS (260) 5
+    MUL (261) 6
+    DIV (262) 7
+    SEMICOLON (263) 1 2
+
+
+Nonterminals, with rules where they appear
+
+    $accept (9)
+        on left: 0
+    lines (10)
+        on left: 1 2 3
+        on right: 0 1 2
+    expr (11)
+        on left: 4 5 6 7 8
+        on right: 1 4 5 6 7
+
+
+State 0
+
+    0 $accept: . lines $end
+
+    $default  reduce using rule 3 (lines)
+
+    lines  go to state 1
+
+
+State 1
+
+    0 $accept: lines . $end
+    1 lines: lines . expr SEMICOLON
+    2      | lines . SEMICOLON
+
+    $end       shift, and go to state 2
+    NUMBER     shift, and go to state 3
+    PLUS       shift, and go to state 4
+    MINUS      shift, and go to state 5
+    MUL        shift, and go to state 6
+    DIV        shift, and go to state 7
+    SEMICOLON  shift, and go to state 8
+
+    expr  go to state 9
+
+
+State 2
+
+    0 $accept: lines $end .
+
+    $default  accept
+
+
+State 3
+
+    8 expr: NUMBER .
+
+    $default  reduce using rule 8 (expr)
+
+
+State 4
+
+    4 expr: PLUS . expr expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 10
+
+
+State 5
+
+    5 expr: MINUS . expr expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 11
+
+
+State 6
+
+    6 expr: MUL . expr expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 12
+
+
+State 7
+
+    7 expr: DIV . expr expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 13
+
+
+State 8
+
+    2 lines: lines SEMICOLON .
+
+    $default  reduce using rule 2 (lines)
+
+
+State 9
+
+    1 lines: lines expr . SEMICOLON
+
+    SEMICOLON  shift, and go to state 14
+
+
+State 10
+
+    4 expr: PLUS expr . expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 15
+
+
+State 11
+
+    5 expr: MINUS expr . expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 16
+
+
+State 12
+
+    6 expr: MUL expr . expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 17
+
+
+State 13
+
+    7 expr: DIV expr . expr
+
+    NUMBER  shift, and go to state 3
+    PLUS    shift, and go to state 4
+    MINUS   shift, and go to state 5
+    MUL     shift, and go to state 6
+    DIV     shift, and go to state 7
+
+    expr  go to state 18
+
+
+State 14
+
+    1 lines: lines expr SEMICOLON .
+
+    $default  reduce using rule 1 (lines)
+
+
+State 15
+
+    4 expr: PLUS expr expr .
+
+    $default  reduce using rule 4 (expr)
+
+
+State 16
+
+    5 expr: MINUS expr expr .
+
+    $default  reduce using rule 5 (expr)
+
+
+State 17
+
+    6 expr: MUL expr expr .
+
+    $default  reduce using rule 6 (expr)
+
+
+State 18
+
+    7 expr: DIV expr expr .
+
+    $default  reduce using rule 7 (expr)

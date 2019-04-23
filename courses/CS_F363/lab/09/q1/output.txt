@@ -1,0 +1,30 @@
+[2016a7ps006@linuxbpdc1 q1]$ time test0
+sum = 4e+38
+
+real    0m0.976s
+user    0m0.975s
+sys     0m0.001s
+[2016a7ps006@linuxbpdc1 q1]$ time test1
+sum = 4e+38
+
+real    0m0.182s
+user    0m0.182s
+sys     0m0.000s
+[2016a7ps006@linuxbpdc1 q1]$ time test2
+sum = 4e+38
+
+real    0m0.162s
+user    0m0.162s
+sys     0m0.000s
+[2016a7ps006@linuxbpdc1 q1]$ time test3
+sum = 4e+38
+
+real    0m0.158s
+user    0m0.158s
+sys     0m0.000s
+[2016a7ps006@linuxbpdc1 q1]$ time test3fr
+sum = 4e+38
+
+real    0m0.194s
+user    0m0.194s
+sys     0m0.000s
