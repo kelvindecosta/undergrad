@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PurchaseOrder>
+	<Item>
+		<Name>Laptop</Name>
+		<Price>2000</Price>
+		<Quantity>20</Quantity>
+	</Item>
+	<Item>
+		<Name>Mobile</Name>
+		<Price>200</Price>
+		<Quantity>10</Quantity>
+	</Item>
+	<Item>
+		<Name>Printer</Name>
+		<Price>2000</Price>
+		<Quantity>5</Quantity>
+	</Item>
+<ShippingAddress>
+		<Street>10 main road</Street>
+		<City>Dubai</City>
+		<Pin>345005</Pin>
+	</ShippingAddress>
+</PurchaseOrder>

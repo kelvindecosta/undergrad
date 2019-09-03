@@ -48,5 +48,10 @@ An archive of some of the academic work done during my undergraduate studies.
         <tr>
             <td><a href="courses/CS_F363/">Compiler Construction</a></td>
         </tr>
+        <tr>
+            <td align="center">4</td>
+            <td align="center">1</td>
+            <td><a href="courses/BITS_F466/">Service Oriented Computing</a></td>
+        </tr>
     </tbody>
 </table>
