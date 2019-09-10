@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2016 (http://www.altova.com) by BITS-PILANI University, Dubai Campus (BITS-PILANI University, Dubai Campus) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="University">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Name"/>
+				<xs:element name="Director">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name"/>
+							<xs:element name="HOD" minOccurs="2" maxOccurs="2">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Name"/>
+										<xs:element name="Department">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Name"/>
+													<xs:element name="Faculty" minOccurs="2" maxOccurs="2">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Name"/>
+																<xs:element name="ID"/>
+																<xs:element name="Subject" minOccurs="2" maxOccurs="2">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="Name"/>
+																			<xs:element name="Student" minOccurs="2" maxOccurs="2">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="Name"/>
+																						<xs:element name="ID"/>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

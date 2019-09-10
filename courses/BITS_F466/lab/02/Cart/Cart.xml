@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cart xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Admin/Documents/service-oriented-computing-lab/lab02/q2/Cart.xsd">
+	<Item>
+		<Name>Mobile</Name>
+		<Qty>11</Qty>
+		<Cost>100</Cost>
+	</Item>
+	<Item>
+		<Name>Laptop</Name>
+		<Qty>2</Qty>
+		<Cost>1000</Cost>
+	</Item>
+</Cart>

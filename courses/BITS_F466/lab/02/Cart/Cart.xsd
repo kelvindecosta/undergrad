@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2016 (http://www.altova.com) by BITS-PILANI University, Dubai Campus (BITS-PILANI University, Dubai Campus) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="Cart">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Item" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Name"/>
+							<xs:element name="Qty">
+								<xs:simpleType>
+									<xs:restriction base="xs:int"/>
+								</xs:simpleType>
+							</xs:element>
+							<xs:element name="Cost">
+								<xs:simpleType>
+									<xs:restriction base="xs:float">
+										<xs:assertion test="$value != 0" xpathDefaultNamespace="##defaultNamespace"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+						<xs:assert test='(Name = "Mobile" and Qty > 10) or (not(Name = "Mobile") and not(Qty > 10))'/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

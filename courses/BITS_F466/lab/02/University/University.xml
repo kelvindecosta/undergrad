@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<University xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/Admin/Documents/service-oriented-computing-lab/lab02/q1/University.xsd">
+	<Name >BITS Pilani, Dubai Campus</Name>
+	<Director>
+		<Name>Prof. R. N. Saha</Name>
+		<HOD>
+			<Name>Dr. Sujala D. Shetty</Name>
+			<Department>
+				<Name>Computer Science</Name>
+				<Faculty>
+					<Name>Dr. Vadivel</Name>
+					<ID>F001</ID>
+					<Subject>
+						<Name>Service Oriented Computing</Name>
+						<Student>
+							<Name>Kelvin DeCosta</Name>
+							<ID>2016A7TS0006U</ID>
+						</Student>
+						<Student>
+							<Name>Dhruv Duseja</Name>
+							<ID>2016A7PS0904U</ID>
+						</Student>
+					</Subject>
+					<Subject>
+						<Name>Computer Networks</Name>
+						<Student>
+							<Name>Kunal Haryani</Name>
+							<ID>2017A7PS0101U</ID>
+						</Student>
+						<Student>
+							<Name>Adithya T. P.</Name>
+							<ID>2017A7PS0001U</ID>
+						</Student>
+					</Subject>
+				</Faculty>
+				<Faculty>
+					<Name>Dr. Santhosh Kumar</Name>
+					<ID>F002</ID>
+					<Subject>
+						<Name>Cryptography</Name>
+						<Student>
+							<Name>Parth Poply</Name>
+							<ID>2016A7TS0249U</ID>
+						</Student>
+						<Student>
+							<Name>Mohammed Shoaib</Name>
+							<ID>2016A7TS0056U</ID>
+						</Student>
+					</Subject>
+					<Subject>
+						<Name>Parallel Computing</Name>
+						<Student>
+							<Name>Eshwaran Venkat</Name>
+							<ID>2016A7PS0088U</ID>
+						</Student>
+						<Student>
+							<Name>Neetesh Bhati</Name>
+							<ID>2017A7PS0050U</ID>
+						</Student>
+					</Subject>
+				</Faculty>
+			</Department>
+		</HOD>
+		<HOD>
+			<Name>Dr. Nishant</Name>
+			<Department>
+				<Name>Chemical Engineering</Name>
+				<Faculty>
+					<Name>Dr. Gulliani</Name>
+					<ID>F003</ID>
+					<Subject>
+						<Name>Engineering Chemistry</Name>
+						<Student>
+							<Name>Zaid Mohammed</Name>
+							<ID>2016A7PS0017U</ID>
+						</Student>
+						<Student>
+							<Name>Dylan D'Souza</Name>
+							<ID>2016A7PS0068U</ID>
+						</Student>
+					</Subject>
+					<Subject>
+						<Name>Chemical Reactions</Name>
+						<Student>
+							<Name>Zaid Baig</Name>
+							<ID>2016A7PS0001U</ID>
+						</Student>
+						<Student>
+							<Name>Allan Barbosa</Name>
+							<ID>2016A7PS0012U</ID>
+						</Student>
+					</Subject>
+				</Faculty>
+				<Faculty>
+					<Name>Dr. Rusal Raj</Name>
+					<ID/>
+					<Subject>
+						<Name>Heat Transfer</Name>
+						<Student>
+							<Name>Vinayak Sengupta</Name>
+							<ID>2016A7PS0081U</ID>
+						</Student>
+						<Student>
+							<Name>Karyn D'Souza</Name>
+							<ID>2016A7PS0301U</ID>
+						</Student>
+					</Subject>
+					<Subject>
+						<Name>Superfluids</Name>
+						<Student>
+							<Name>Lalitha Natraj</Name>
+							<ID>2016A7TS0005U</ID>
+						</Student>
+						<Student>
+							<Name>Rahul Narayan</Name>
+							<ID>2016A7PS0012U</ID>
+						</Student>
+					</Subject>
+				</Faculty>
+			</Department>
+		</HOD>
+	</Director>
+</University>
