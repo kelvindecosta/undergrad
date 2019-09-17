@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2016 (http://www.altova.com) by BITS-PILANI University, Dubai Campus (BITS-PILANI University, Dubai Campus) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="1.1">
+	<xs:element name="Contact" type="ContactType">
+		<xs:alternative test='@id = "ABC"' type="USContactType"/>
+	</xs:element>
+	<xs:complexType name="ContactType">
+		<xs:sequence>
+			<xs:element name="Name"/>
+			<xs:element name="Age" type="xs:int"/>
+			<xs:element name="Country"/>
+		</xs:sequence>
+		<xs:attribute name="id"/>
+		<xs:assert test='(@id = "ABC" and Age = 20) or (@id != "ABC" and Age = 30)'/>
+	</xs:complexType>
+	<xs:complexType name="USContactType">
+		<xs:complexContent>
+			<xs:restriction base="ContactType">
+				<xs:sequence>
+					<xs:element name="Name"/>
+					<xs:element name="Age" type="xs:int"/>
+					<xs:element name="Country"/>
+				</xs:sequence>
+				<xs:assert test='(Country = "USA")'/>
+			</xs:restriction>
+		</xs:complexContent>
+	</xs:complexType>
+</xs:schema>
