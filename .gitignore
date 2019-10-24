@@ -11,3 +11,6 @@ nbdist/
 
 # Data
 *.db
+
+# Python
+__pycache__/
