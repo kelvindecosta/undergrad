@@ -9,3 +9,4 @@
 | [05](05/) | Public Key Crypto    |
 | [06](06/) | Digital Certificates |
 | [07](07/) | File Encryption      |
+| [08](08/) | DOM Parser - Part 1  |
