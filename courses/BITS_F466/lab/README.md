@@ -10,3 +10,4 @@
 | [06](06/) | Digital Certificates |
 | [07](07/) | File Encryption      |
 | [08](08/) | DOM Parser - Part 1  |
+| [09](09/) | DOM Parser - Part 2  |
