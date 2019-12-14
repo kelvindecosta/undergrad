@@ -1,0 +1,17 @@
+{
+    "name": "api",
+    "version": "1.0.0",
+    "description": "A simple api gateway",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Kelvin DeCosta",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.18.0",
+      "cors": "^2.8.4",
+      "express": "^4.16.3"
+    }
+  }

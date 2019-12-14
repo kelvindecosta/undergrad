@@ -1,0 +1,28 @@
+version: '2'
+services:
+  code-2-country:
+    build:
+      context: ./code-2-country-service
+      dockerfile: app.dockerfile
+  country-2-code:
+    build:
+      context: ./country-2-code-service
+      dockerfile: app.dockerfile
+  frontend:
+    build:
+      context: ./front-end
+      dockerfile: app.dockerfile
+    ports:
+      - "8080:80"
+  api:
+    build:
+      context: ./api-gateway
+      dockerfile: app.dockerfile
+    environment:
+      - "CODE_2_COUNTRY_API=http://code-2-country:5000"
+      - "COUNTRY_2_CODE_API=http://country-2-code:5001"
+    depends_on:
+      - code-2-country
+      - country-2-code
+    ports:
+      - "3000:3000"

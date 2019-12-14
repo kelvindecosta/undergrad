@@ -14,3 +14,9 @@ nbdist/
 
 # Python
 __pycache__/
+
+# JavaScript
+node_modules/
+
+# Logging
+*.log

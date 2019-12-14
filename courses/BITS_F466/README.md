@@ -4,6 +4,7 @@
 >
 > ~ Wikipedia
 
-| Component   | Description                                                                               |
-| :---------- | :---------------------------------------------------------------------------------------- |
-| [Lab](lab/) | Programs, written in [Java](<https://en.wikipedia.org/wiki/Java_(programming_language)>). |
+| Component           | Description                                                                               |
+| :------------------ | :---------------------------------------------------------------------------------------- |
+| [Lab](lab/)         | Programs, written in [Java](<https://en.wikipedia.org/wiki/Java_(programming_language)>). |
+| [Assignments](ass/) | Programming assignments.                                                                  |
